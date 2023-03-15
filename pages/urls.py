@@ -20,4 +20,7 @@ from . import views
 urlpatterns = [
     # we got it from carzone/urls, then it will find the views.py file
     path('', views.home, name='home'),
+    path('about', views.about, name='about'),
+    path('services', views.services, name='services'),
+    path('contact', views.contact, name='contact'),
 ]
